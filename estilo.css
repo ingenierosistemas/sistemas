@@ -1,0 +1,107 @@
+
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+/*Footer*/
+footer {
+	width:100%;
+	float:left;
+	clear:both;
+	box-shadow:0px 2px 2px #000;
+		-moz-box-shadow:0px 2px 2px #000;
+		-webkit-box-shadow:0px 2px 2px #000;
+	border-radius:5px;
+		-moz-border-radius:5px;	
+		-webkit-border-radius:5px;
+	background: #2f2f2f; /* Old browsers */
+background: -moz-linear-gradient(top,  #2f2f2f 0%, #242424 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2f2f), color-stop(100%,#242424)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #2f2f2f 0%,#242424 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+}
+ 
+footer section {
+	width:440px;
+	float:left;
+	padding:20px;
+}
+ 
+footer #acerca-de {
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	color:#8c8c8c;
+	text-align:justify;
+	line-height:20px;
+}
+ 
+footer #acerca-de h3 {
+	font-family:sourcesans-light;
+	font-size:20px;
+	color:#fff;
+	margin-bottom:5px;
+}
+ 
+footer #redes-s > div {
+	width:220px;
+	height:60px;
+	float:left;
+	background:#ff8000;
+	opacity:0.5;
+}
+ 
+footer #redes-s > div a {
+	width:220px;
+	height:60px;
+	display:inline-block;
+}
+ 
+footer #redes-s .email {
+	background:url(../imagenes/correo.png);
+	margin-bottom:15px;
+}
+ 
+footer #redes-s .twitter {
+	background:url(../imagenes/twitter.png);
+	margin-bottom:15px;
+}
+ 
+footer #redes-s .facebook {
+	background:url(../imagenes/facebook.png);
+}
+ 
+footer #redes-s .youtube {
+	background:url(../imagenes/youtube.png);
+}
+ 
+footer #redes-s > div:hover {
+	opacity:1;
+}
+ 
+#copyright {
+	float:left;
+	width:960px;
+	margin:10px 0px;
+}
+ 
+#copyright p {
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	font-family:Arial, Helvetica, Sans-serif;
+}
